@@ -1,6 +1,6 @@
 # 🧟‍♂️ Repo Resurrector
 
-> Breathe new life into abandoned open source projects.
+> Breathe new life into stale open source projects.
 
 ![Repo Resurrector Screenshot](screenshot.png)
 
