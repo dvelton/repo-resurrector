@@ -2,7 +2,7 @@
 
 > Breathe new life into abandoned open source projects.
 
-![Repo Resurrector Screenshot](repo-resurrector/screenshot.png)
+![Repo Resurrector Screenshot](screenshot.png)
 
 ---
 
