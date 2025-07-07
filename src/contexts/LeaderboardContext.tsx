@@ -69,7 +69,11 @@ export function LeaderboardProvider({ children }: LeaderboardProviderProps) {
 
   // Recalculate leaderboard when adopted repos change
   useEffect(() => {
-    calculateLeaderboard();
+    if (adoptedRepos && adoptedRepos.length > 0) {
+      calculateLeaderboard();
+    }
+    // Including calculateLeaderboard in deps array would cause re-renders
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [adoptedRepos]);
 
   const value = {

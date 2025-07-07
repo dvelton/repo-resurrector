@@ -43,10 +43,11 @@ export function RepositoryDialog({ repository, open, onOpenChange }: RepositoryD
   const [activeTab, setActiveTab] = useState("info");
 
   useEffect(() => {
-    if (repository && open) {
+    if (repository && open && !repository.aiSuggestions) {
       generateAiSuggestions(repository);
     }
-  }, [repository, open, generateAiSuggestions]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [repository, open]);
 
   if (!repository) {
     return null;

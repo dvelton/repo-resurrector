@@ -44,7 +44,9 @@ export function AuthProvider({ children }: AuthProviderProps) {
     };
 
     checkUserStatus();
-  }, [user, setUser]);
+    // Remove 'user' from dependency array to prevent infinite loop
+    // since checking for !user and then calling setUser creates a loop
+  }, [setUser]);
 
   const login = async () => {
     setIsLoading(true);
