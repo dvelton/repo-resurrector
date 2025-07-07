@@ -32,11 +32,24 @@ Try out a simulation of the project.
 
 ---
 
+## ✅ What You Can Do
+
+- [x] Discover stale yet valuable open source projects
+- [x] Use AI-powered ideas to make meaningful contributions
+- [x] Compete (or collaborate!) on the community leaderboard
+- [ ] Become the hero of a repo no one else believed in
+
+---
+
 ## 💡 Why It Matters
 
-Many valuable open source projects fall into disrepair every year. Repo Resurrector helps surface the best of them, making it easy for contributors like you to make a real impact.
+Every year, many open source projects are abandoned despite strong potential. Repo Resurrector makes it easy to:
 
-Open source isn't just about starting something new—sometimes it's about finishing what someone else started.
+- Surface hidden gems
+- Empower new maintainers
+- Sustain the open source ecosystem
+
+> _Not all heroes start new projects—some revive old ones._
 
 ---
 
