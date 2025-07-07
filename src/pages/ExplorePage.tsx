@@ -24,7 +24,8 @@ export function ExplorePage() {
   // Load repositories on initial mount
   useEffect(() => {
     searchRepositories();
-  }, [searchRepositories]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   
   const handleSelectRepository = (repo: Repository) => {
     setSelectedRepo(repo);

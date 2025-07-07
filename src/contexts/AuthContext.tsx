@@ -43,10 +43,10 @@ export function AuthProvider({ children }: AuthProviderProps) {
       }
     };
 
+    // Only run once on mount
     checkUserStatus();
-    // Remove 'user' from dependency array to prevent infinite loop
-    // since checking for !user and then calling setUser creates a loop
-  }, [setUser]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const login = async () => {
     setIsLoading(true);
